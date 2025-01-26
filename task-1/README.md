@@ -1,4 +1,4 @@
-# Task 1: Document the workings of a simple transformer, focusing on keys, queries, values, self-attention, and feed-forward layers, explaining their roles in processing sequential data for deep fake audio detection.
+# Task 1: Document the workings of a simple transformer, focusing on keys, queries, values, self-attention, and feed-forward layers, explaining their roles in processing sequential data for deepfake audio detection.
 
 ## Transformer Model Overview
 
@@ -22,7 +22,7 @@ The Transformer model is a neural network architecture designed for processing s
 
 ## Processing Sequential Data for Deep Fake Audio Detection
 
-For deep fake audio detection, the input data could be a three-dimensional tensor with the shape `(batch_size, feature_1, feature_2)`. `feature_1` and `feature_2` could represent:
+For deepfake audio detection, the input data could be a three-dimensional tensor with the shape `(batch_size, feature_1, feature_2)`. `feature_1` and `feature_2` could represent:
 
 - **feature_1**: the time steps or frames in the audio sequence.
 - **feature_2**: the features extracted from each time step, such as Mel-frequency cepstral coefficients (MFCCs), spectrogram values, or other audio features.
