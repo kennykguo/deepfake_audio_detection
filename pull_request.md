@@ -71,20 +71,3 @@ This tutorial will guide you through the process of submitting a pull request to
 3. On the pull request page, ensure that the base repository is the original repository you forked from, and the head repository is your forked repository.
 4. Write a title and description for your pull request, explaining the changes you made.
 5. Click the "Create pull request" button.
-
----
-
-## Step 8: Wait for Review
-
-1. The repository maintainers will review your pull request. They may ask for changes or merge it if everything looks good.
-2. If changes are requested, make the necessary updates and push them to the same branch. The pull request will automatically update.
-
----
-
-## Step 9: Celebrate!
-
-Once your pull request is merged, congratulations! You've successfully contributed to the repository.
-
----
-
-That's it! You've now learned how to submit a pull request on GitHub. Happy coding!
