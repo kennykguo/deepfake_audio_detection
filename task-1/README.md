@@ -22,10 +22,10 @@ The Transformer model is a neural network architecture designed for processing s
 
 ## Processing Sequential Data for Deep Fake Audio Detection
 
-For deep fake audio detection, the input data could be a three-dimensional tensor with the shape `(batch_size, feature_1, feature_2)`. Here's what `feature_1` and `feature_2` could represent:
+For deep fake audio detection, the input data could be a three-dimensional tensor with the shape `(batch_size, feature_1, feature_2)`. `feature_1` and `feature_2` could represent:
 
-- **feature_1**: This could represent the time steps or frames in the audio sequence.
-- **feature_2**: This could represent the features extracted from each time step, such as Mel-frequency cepstral coefficients (MFCCs), spectrogram values, or other audio features.
+- **feature_1**: the time steps or frames in the audio sequence.
+- **feature_2**: the features extracted from each time step, such as Mel-frequency cepstral coefficients (MFCCs), spectrogram values, or other audio features.
 
 ## Example Workflow
 
