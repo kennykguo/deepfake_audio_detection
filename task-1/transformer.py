@@ -227,7 +227,6 @@ m = model.to(device)
 
 # create a PyTorch optimizer
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
-
 for iter in range(max_iters):
 
     # every once in a while evaluate the loss on train and val sets
