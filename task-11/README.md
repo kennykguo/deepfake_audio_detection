@@ -1,0 +1,1 @@
+Implement noise injection to add background noise or distortions to audio samples, simulating real-world conditions for robust model training. Write a script on a test audio. Example libraries include librosa, scipy, and pydub.
