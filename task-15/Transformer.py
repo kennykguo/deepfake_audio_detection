@@ -27,15 +27,22 @@ class Transformer(nn.Module):
         return x
 
 def load_wav(file_path):
-    waveform, sample_rate = torchaudio.load(file_path)
-    mel_spectrogram = MelSpectrogram()(waveform)
-    return mel_spectrogram
+    try:
+        waveform, sample_rate = torchaudio.load(file_path, backend='soundfile')
+        mel_spectrogram = MelSpectrogram()(waveform)
+        return mel_spectrogram
+    except RuntimeError as e:
+        print(f"Error loading {file_path}: {e}")
+        return None
 
 if __name__ == "__main__":
-    file_path = "path/to/your/audio.wav"
+    file_path = "example.wav"
     mel_spectrogram = load_wav(file_path)
-    mel_spectrogram = mel_spectrogram.permute(0, 2, 1)  # (batch_size, seq_len, feature_dim)
+    if mel_spectrogram is not None:
+        mel_spectrogram = mel_spectrogram.permute(0, 2, 1)  # (batch_size, seq_len, feature_dim)
 
-    model = Transformer(embed_size=256, num_heads=8, num_layers=4, window_size=10, sparsity_factor=0.1)
-    output = model(mel_spectrogram)
-    print(output)
+        model = Transformer(embed_size=256, num_heads=8, num_layers=4, window_size=10, sparsity_factor=0.1)
+        output = model(mel_spectrogram)
+        print(output)
+    else:
+        print("Failed to load the audio file.")
