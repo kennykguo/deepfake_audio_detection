@@ -1,0 +1,96 @@
+import torch
+import torch.nn as nn
+from torch.nn import functional as F
+import torch
+import torchaudio
+import torchaudio.transforms as T
+import matplotlib.pyplot as plt
+import librosa
+import librosa.display
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.fftpack import dct
+import torchaudio
+from pyannote.audio import Pipeline, Model
+from pyannote.audio.pipelines.utils.hook import ProgressHook
+import torch
+from pyannote.core import Annotation
+import numpy as np
+import matplotlib.pyplot as plt
+from pyannote.core import Timeline
+import torchaudio
+from speechbrain.dataio.dataio import read_audio
+from speechbrain.processing.features import MFCC
+import torch
+from transformers import Wav2Vec2ForSequenceClassification, Wav2Vec2Processor
+import torchaudio
+import librosa
+import numpy as np
+import torch
+import torchaudio
+import torchaudio.transforms as T
+import matplotlib.pyplot as plt
+import argparse
+import torch
+import torchaudio
+import torchaudio.transforms as T
+import matplotlib.pyplot as plt
+from tqdm.notebook import tqdm
+import torchaudio
+from speechbrain.dataio.dataio import read_audio
+from speechbrain.processing.features import MFCC
+import torch
+import torchaudio
+import torchaudio.transforms
+from torchaudio.transforms import Speed, PitchShift
+import tempfile
+import os
+import requests
+import os
+import urllib.request
+import tarfile
+import librosa
+import soundfile as sf
+import torch
+import torch.nn as nn
+import torchaudio
+from torchaudio.transforms import MelSpectrogram
+import torch.nn as nn
+import torchaudio
+from torchaudio.transforms import MelSpectrogram
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import DataLoader, Dataset
+import torchaudio
+from torchaudio.transforms import MelSpectrogram
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from torchaudio.datasets import LIBRISPEECH
+from torch.utils.data import DataLoader, random_split
+import torch
+import torchaudio
+import torchaudio.transforms as T
+import matplotlib.pyplot as plt
+import argparse
+import torch
+import torch.nn as nn
+import torchaudio
+from torchaudio.transforms import MelSpectrogram
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import DataLoader, Dataset
+import torchaudio
+from torchaudio.transforms import MelSpectrogram
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from torchaudio.datasets import LIBRISPEECH
+from torch.utils.data import DataLoader, random_split
+import torch
+import torchaudio
+import torchaudio.transforms as T
+from transformers import Wav2Vec2Processor, Wav2Vec2Model, HubertModel
+from speechbrain.pretrained import EncoderASR
+from performer_pytorch import Performer
+import matplotlib.pyplot as plt
+from sklearn.decomposition import PCA
+from scipy.fftpack import dct
