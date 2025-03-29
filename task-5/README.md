@@ -16,7 +16,7 @@ Task: Identify three short-term spectral features (e.g., zero-crossing rate, spe
     e. Can catch differences between natural human pitches, transitions, or inconsistencies in the audio
 	
     Method:
-    1. Log power spectrum is generated from the audio input before being resampled on the mel scale - this creates discrete cosine transform 
+    1. Log power spectrum is generated from the audio input before being resampled on the Mel scale - this creates discrete cosine transform 
     2. We can compare the DCT of log(abs(FT)) [FT is frequency domain] to the autocorrelation (i.e. clapping in an empty room and comparing the echos to the original clap; similar to amplifying the echoes to find the original signal)
     3. Essentially the DCT of log(abs(ft)) acts as autocorrelation
     4. Why DCT over autocorrelation? - robust to the removal of the fundamental frequency
@@ -24,7 +24,7 @@ Task: Identify three short-term spectral features (e.g., zero-crossing rate, spe
     6. Interpretation: MFCCs of an audio file can be interpreted as the highpass filtered file’s autocorrelation with the musical pitch removed and robust to bandwidth filtration [2]
 
 2. Spectral Centroid [3]
-    a. Acoustic descriptor of timbre; obtained through the weighted average on the frequency rep. Of the signal
+    a. Acoustic descriptor of timbre; obtained through the weighted average on the frequency representation.
     b. Corresponds with a specific type of estimation of the spectral shape/curve
     c. Estimates the center of mass of the spectrum; value corresponds to a frequency on both sides of which the energy is equally distributed
     d. Deep fakes may show unnatural spectral centroids or have strange spikes in varying samples

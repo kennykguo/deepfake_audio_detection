@@ -76,8 +76,6 @@ def get_batch(split):
     # Important to understand that the Transformer takes in no previous hidden state
     # This means that the Transformer just gets portions of the text and learns from that, of time_steps length long
     # time_steps is also the block_size
-    # e may be
-    # the ears
     x = torch.stack([data[i:i+block_size] for i in ix])
     y = torch.stack([data[i+1:i+block_size+1] for i in ix])
     x, y = x.to(device), y.to(device)

@@ -12,7 +12,7 @@ of the fine-tuned XLS-R model.
 
 
 # Utilizing the most basic, facebook xls-r model
-model_name = "facebook/xls-r-1b"
+model_name = "facebook/wav2vec2-xls-r-1b"  # Notice "wav2vec2-" prefix
 model = Wav2Vec2ForSequenceClassification.from_pretrained(model_name)
 processor = Wav2Vec2Processor.from_pretrained(model_name)
 
@@ -44,12 +44,13 @@ def detect_deepfake(audio_path):
     probs = torch.nn.functional.softmax(logits, dim=-1)
 
     # Get the predicted class (deepfake or real)
+    # Binary classification default
     prediction = torch.argmax(probs, dim=-1).item()
 
     return "Deepfake" if prediction == 1 else "Real"
 
 
 # Run the model
-audio_file = "(insert your audio here).wav"
+audio_file = "example.wav"
 result = detect_deepfake(audio_file)
 print(f"Deepfake Audio Detection Result: {result}")

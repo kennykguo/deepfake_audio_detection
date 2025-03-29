@@ -1,7 +1,7 @@
 # What is Whisper?
 
 - **Automatic Speech Recognition (ASR) system**
-- **Sequence-to-sequence**
+- **Sequence-to-Sequence**
 - **Speech Translation model**
 - **Trained on multilingual & multitask supervised web data**
 
@@ -59,7 +59,7 @@
 ---
 
 # Improved DeepFake Detection Using Whisper Features (Kawa et al., 2023)
-- Inferred Whisper would ignore most of naturally occurring artefacts & help identify artificially modified speech samples
+- Inferred Whisper would ignore most of naturally occurring artifacts & help identify artificially modified speech samples
 - Help with problem of poor efficacy of the models on the data outside of the training set’s distribution => generalization
 - Experimented with **tiny.en**
   - Smallest model, only on English, since main language of DF datasets is English

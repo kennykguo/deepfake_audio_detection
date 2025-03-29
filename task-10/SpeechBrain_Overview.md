@@ -1,5 +1,5 @@
 # Summary
-    SpeechBrain is an open-source, PyTorch-based toolkit designed to accelerate the development of Conversational AI technologies, including speech assistants, chatbots, and large language models. It offers tools for speech and text processing, making it relevant for deepfake analysis.
+SpeechBrain is an open-source, PyTorch-based toolkit designed to accelerate the development of Conversational AI technologies, including speech assistants, chatbots, and large language models. It offers tools for speech and text processing, making it relevant for deepfake analysis.
 
 # Key Features of SpeechBrain
 
