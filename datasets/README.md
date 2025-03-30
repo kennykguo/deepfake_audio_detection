@@ -4,6 +4,7 @@
 - Divided into 2 folders: Real & Fake
 - Each audio sample taken from speeches of well-known influential people
 - Fake folder stores audio that were converted into another person's voice, as denoted in each file's name.
+- .wav audio files
 
 # ASVspoof 2019
 [Paper](https://arxiv.org/pdf/1911.01601)
