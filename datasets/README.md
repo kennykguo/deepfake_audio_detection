@@ -22,7 +22,7 @@
   - Attacker intercepts & retransmits a perviously sent data packet to gain unauthorized access.
 
 ## ASVspoof 2019
-[Paper](https://arxiv.org/pdf/1911.01601)
+[Paper](https://arxiv.org/pdf/1911.01601) \\
 [Kaggle](https://www.kaggle.com/datasets/awsaf49/asvpoof-2019-dataset)
 - Spoofing attacks within a logical access (LA) scenario using the latest TTS and VS technologies, including state-of-the art neural acoustic & waveform model techniques.
   - TTS, VC, replay attacks considered
