@@ -1,5 +1,5 @@
 
-# Dataset downloadable from Kaggle
+# DEEP-VOICE
 [Audio Dataset](https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition/data)
 - Divided into 2 folders: Real & Fake.
 - Real folder contains 8 Original speeches by 8 well-known influential people.
