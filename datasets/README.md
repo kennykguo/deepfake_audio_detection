@@ -8,6 +8,27 @@
   - 56 files
 - .wav audio files, 10 minutes each.
 
-# ASVspoof 2019
+# ASVspoof
+- Automatic Speaker Verification is used for biometric identification.
+- Spoofing refers to presentation attacks
+  - Impersonation of something or someone to gain access to the system
+
+## ASVspoof 2015
+- Focus on detecting text-to-speech synthesis (TTS) and voice conversion (VC) attacks.
+
+## ASVspoof 2017
+- Focus on replay attacks
+  - Attacker intercepts & retransmits a perviously sent data packet to gain unauthorized access.
+
+## ASVspoof 2019
 [Paper](https://arxiv.org/pdf/1911.01601)
-- Automatic Speaker Verification
+- Spoofing attacks within a logical access (LA) scenario using the latest TTS and VS technologies, including state-of-the art neural acoustic & waveform model techniques.
+  - TTS, VC, replay attacks considered
+- Carefully controlled simulations of replayed speech
+### Database Partitions
+- Based on Voice Cloning Tookit (VCTK): multi-speaker English speech database recorded in a hemi-anechoic chamber
+  - Sampling rate of 96 kHz downsampled to 16 kHz
+  - 107 speakers (46 M, 61 F)
+  - Training => 20 speakers
+  - Development => 10 target & 10 non-target speakers
+  - Evaluation => 48 target & 19 non-target speakers
