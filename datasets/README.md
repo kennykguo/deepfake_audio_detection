@@ -22,11 +22,13 @@
   - Attacker intercepts & retransmits a perviously sent data packet to gain unauthorized access.
 
 ## ASVspoof 2019
-[Paper](https://arxiv.org/pdf/1911.01601) \\
+[Paper](https://arxiv.org/pdf/1911.01601) ||
 [Kaggle](https://www.kaggle.com/datasets/awsaf49/asvpoof-2019-dataset)
 - Spoofing attacks within a logical access (LA) scenario using the latest TTS and VS technologies, including state-of-the art neural acoustic & waveform model techniques.
   - TTS, VC, replay attacks considered
 - Carefully controlled simulations of replayed speech
+- LA Control: remote user seeks access to a system/service protected by ASV
+- PA Control: use of ASV to protect access to a sensitive/secure physical space or facility
 ### Database Partitions
 - Based on Voice Cloning Tookit (VCTK): multi-speaker English speech database recorded in a hemi-anechoic chamber
   - Sampling rate of 96 kHz downsampled to 16 kHz
@@ -34,3 +36,4 @@
   - Training => 20 speakers
   - Development => 10 target & 10 non-target speakers
   - Evaluation => 48 target & 19 non-target speakers
+- .flac files in train, dev, and eval folders.
