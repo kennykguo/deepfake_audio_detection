@@ -33,7 +33,12 @@
 - Based on Voice Cloning Tookit (VCTK): multi-speaker English speech database recorded in a hemi-anechoic chamber
   - Sampling rate of 96 kHz downsampled to 16 kHz
   - 107 speakers (46 M, 61 F)
-  - Training => 20 speakers
-  - Development => 10 target & 10 non-target speakers
-  - Evaluation => 48 target & 19 non-target speakers
+  - Training => 20 speakers (8 M, 12 F)
+  - Development => 10 target & 10 non-target speakers (4 M, 6 F)
+  - Evaluation => 48 target & 19 non-target speakers (21 M, 27 F)
 - .flac files in train, dev, and eval folders.
+
+## ASVspoof 2021
+[Paper](https://www.isca-archive.org/asvspoof_2021/yamagishi21_asvspoof.pdf) || [Kaggle](https://www.kaggle.com/datasets/mohammedabdeldayem/avsspoof-2021)
+- DF Control: attacker has access to voice recordings of a targeted victim
+- Addition of DeepFake evaluation data (source from ASVspoof 2019)
