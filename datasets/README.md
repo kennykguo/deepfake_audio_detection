@@ -1,6 +1,14 @@
+# In the Wild
+[Paper]() || [Dataset](https://www.kaggle.com/datasets/abdallamohamed312/in-the-wild-audio-deepfake?select=release_in_the_wild)
+- Divided into 2 folders: real & fake
+- real folder contains audio from 58 politicians and celebrities
+  - 23 minutes of bona-fide/genuine audio
+- fake folder stores spoofed audios
+  - 18 minutes per speaker
+- .wav audio files
 
 # DEEP-VOICE
-[Audio Dataset](https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition/data)
+[Dataset](https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition/data)
 - Divided into 2 folders: Real & Fake.
 - Real folder contains 8 Original speeches by 8 well-known influential people.
 - Fake folder stores audio that were converted into another person's voice, as denoted in each file's name.
